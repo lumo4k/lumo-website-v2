@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    slug: "terra",
+    title: "Terra & mesa",
+    category: "Restaurante contemporâneo",
+    description:
+      "Uma experiência que abre o apetite. Cardápio claro e reservas a um toque.",
+    image: "/images/restaurant.jpg",
+    technologies: ["Next.js", "Design", "Reservas"],
+    url: "/projetos/terra",
+    year: "2026",
+    featured: true,
+    headline: "O tempo desacelera. O sabor fica.",
+    accent: "#bca588",
+  },
+  {
+    slug: "forma",
+    title: "Forma arquitetura",
+    category: "Arquitetura & interiores",
+    description:
+      "Espaço para o que importa: projetos, materiais e a visão de quem cria.",
+    image: "/images/architecture.jpg",
+    technologies: ["Next.js", "GSAP", "Portfólio"],
+    url: "/projetos/forma",
+    year: "2026",
+    featured: true,
+    headline: "Espaços para viver. E sentir.",
+    accent: "#d5d7c3",
+  },
+  {
+    slug: "clara",
+    title: "Clara saúde",
+    category: "Clínica & bem-estar",
+    description:
+      "Informação acolhedora, especialidades organizadas e agendamento simples.",
+    image: "/images/clinic.jpg",
+    technologies: ["Next.js", "SEO", "WhatsApp"],
+    url: "/projetos/clara",
+    year: "2026",
+    featured: false,
+    headline: "Cuidado que começa na escuta.",
+    accent: "#b5c9bd",
+  },
+  {
+    slug: "brisa",
+    title: "Brisa hospedaria",
+    category: "Hotel & experiências",
+    description:
+      "A estadia começa na tela. Ambientes em destaque e um caminho direto para reservar.",
+    image: "/images/hotel.jpg",
+    technologies: ["Next.js", "Design", "Mobile"],
+    url: "/projetos/brisa",
+    year: "2026",
+    featured: false,
+    headline: "Um lugar para respirar de novo.",
+    accent: "#d8b58e",
+  },
+];
